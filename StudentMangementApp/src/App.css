@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .form-container,
+  .table-container,
+  .details-container,
+  .dashboard-container {
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+}
